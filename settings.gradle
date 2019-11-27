@@ -1,0 +1,3 @@
+include ':app', ':persiancalendar', ':calendarview'
+project(':persiancalendar').projectDir = new File('persiancalendar')
+project(':calendarview').projectDir = new File('calendarview')

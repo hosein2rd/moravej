@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="TextAppearance.MaterialCalendarWidget.Header"
+      parent="android:TextAppearance.DeviceDefault.Small">
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="TextAppearance.MaterialCalendarWidget.Date"
+      parent="android:TextAppearance.DeviceDefault.Small">
+    <item name="android:textSize">4sp</item>
+    <item name="android:textColor">@color/mcv_text_date_light</item>
+    <item name="android:fontFamily">@font/shabnam</item>
+  </style>
+
+  <style name="TextAppearance.MaterialCalendarWidget.WeekDay"
+      parent="android:TextAppearance.DeviceDefault.Small">
+    <item name="android:textSize">4sp</item>
+    <item name="android:fontFamily">@font/shabnam</item>
+  </style>
+
+</resources>
